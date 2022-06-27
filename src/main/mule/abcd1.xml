@@ -9,7 +9,7 @@ http://www.mulesoft.org/schema/mule/http http://www.mulesoft.org/schema/mule/htt
 	</http:listener-config>
 	<flow name="abcd1Flow" doc:id="106fce3b-f622-49f8-8d58-3b9513a84768" >
 		<http:listener doc:name="Listener" doc:id="9e93aff6-9cf5-416c-ad1d-70f9401fd7d1" config-ref="HTTP_Listener_config" path="/abcd1"/>
-		<set-payload value='#["amma nanna"]' doc:name="Set Payload" doc:id="901575d3-eb77-4b59-8421-88e4fe61d1c7" />
+		<set-payload value='#["new reppooooo"]' doc:name="Set Payload" doc:id="901575d3-eb77-4b59-8421-88e4fe61d1c7" />
 		<logger level="INFO" doc:name="Logger" doc:id="5a65222e-33ce-4156-9cfc-4ed1357bd183" message="#[payload]"/>
 	</flow>
 </mule>
